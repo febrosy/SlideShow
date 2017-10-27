@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/Slideshow.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/Slideshow.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="SlideMain" data-setting='{"width":800,"height":270,"slideWidth":640,"slideHeight":270,"scale":0.9,"verticalAlign":"middle","speed":500,"autoPlay":true}'>
+			<div class="Slidebtn SlidePrev"></div>
+			<ul class="SlideAll">
+				<li class="SlideNode"><a href=""><img src="img/3.jpg"/></a></li>
+				<li class="SlideNode"><a href=""><img src="img/3.jpg"/></a></li>
+				<li class="SlideNode"><a href=""><img src="img/3.jpg"/></a></li>
+				<li class="SlideNode"><a href=""><img src="img/3.jpg"/></a></li>
+				<li class="SlideNode"><a href=""><img src="img/3.jpg"/></a></li>
+				<li class="SlideNode"><a href=""><img src="img/3.jpg"/></a></li>
+				<li class="SlideNode"><a href=""><img src="img/3.jpg"/></a></li>
+			</ul>
+			<div class="Slidebtn SlideNext"></div>
+		</div>
+		
+		
+	</body>
+	
+	<script>
+		Slide.init($(".SlideMain"));
+	</script>
+</html>

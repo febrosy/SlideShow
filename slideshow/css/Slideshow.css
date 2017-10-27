@@ -1,0 +1,53 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+.SlideMain
+{
+	position: relative;
+	height: 250px;
+	width: 1000px;
+}
+.Slidebtn
+{
+	z-index: 5;
+	position: absolute;
+	width: 30px;
+	height: 250px;
+}
+.SlidePrev
+{
+	left: 0px;
+}
+.SlideNext
+{
+	right: 0px;
+}
+.SlideAll
+{
+	position: absolute;
+	width: 500px;
+	height: 250px;
+}
+.SlideAll .SlideNode
+{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 500px;
+	height: 250px;
+}
+.SlideNode
+{
+	display: block;
+	width: 200px;
+	height: 250px;
+}
+.SlideNode a,
+.SlideNode a>img
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
